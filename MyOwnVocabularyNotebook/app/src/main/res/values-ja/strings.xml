@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">自分で作った単語帳</string>
+    <string name="text_add">ノート追加</string>
+    <string name="text_game">ゲームノート</string>
+    <string name="text_setting">設定</string>
+    <string name="text_hint_title">タイトル:TOEIC VOCA</string>
+    <string name="text_hint_memo">メモ</string>
+    <string name="text_save">保存</string>
+    <string name="text_import">インポート</string>
+    <string name="text_item_add">アイテムの追加</string>
+    <string name="text_hint_key">キー</string>
+    <string name="text_hint_value">値</string>
+    <string name="text_random">ランダム</string>
+    <string name="text_start_game">ゲームの開始</string>
+    <string name="text_add_note">ノートの追加</string>
+    <string name="text_edit_note">ノートの編集</string>
+    <string name="text_back">バック</string>
+    <string name="text_use_translation">翻訳を使用する</string>
+    <string name="text_key">キー</string>
+    <string name="text_value">値</string>
+    <string name="text_label_key">キー: </string>
+    <string name="text_label_value">値: </string>
+    <string name="text_flip">ひっくり返す</string>
+    <string name="text_exam">試験</string>
+    <string name="text_title_note_item_import_description">Excelデータをインポートする方法</string>
+    <string name="text_content_note_item_import_description">
+        ※ インポート可能なファイルは、次の形式で作成する必要があります。 \n
+        1. Excel ファイルを xlsx 形式で作成します。（推奨 xlsx 形式）\n
+        2. シート名を \'result\' に設定します。 \n
+        3. A1 を \'key\' に、B1 を \'value\' に設定します。 \n
+        4. 次に、カラム A にキーを、カラム B に値を書き込みます。 \n
+        5. 次に、Excel ファイルをインポートします。
+    </string>
+    <string name="text_insert_note_item_success">メモ項目の挿入成功！</string>
+    <string name="text_delete_note_success">ノートの削除に成功しました！</string>
+    <string name="text_result">結果</string>
+    <string name="text_temp">TEMP</string>
+    <string name="text_edit">編集</string>
+    <string name="text_cancel">キャンセル</string>
+    <string name="text_delete">削除</string>
+    <string name="text_export">エクスポート</string>
+    <string name="text_view">表示</string>
+    <string name="text_yes">はい</string>
+    <string name="text_no">いいえ</string>
+    <string name="text_save_success">セーブ成功！</string>
+    <string name="text_save_failed">セーブ失敗！</string>
+    <string name="text_empty_item">アイテムリストが空です。 編集ノートに項目を追加してください</string>
+    <string name="text_select_equal_language">キー言語と値言語は同じではありません。</string>
+    <string name="text_fail_import_excel">Excelのインポートに失敗しました！</string>
+    <string name="text_opensource_license">オープンソースライセンス</string>
+    <string name="text_terms_and_conditions">利用規約</string>
+    <string name="text_personal_information_processing_policy">個人情報処理方針</string>
+    <string name="text_customer_suggestions">お客様からの提案</string>
+    <string name="text_hint_email_subject">題目: </string>
+    <string name="text_hint_email_text">内容: </string>
+    <string name="text_send">伝送</string>
+    <string name="text_send_email_vaildate_fail">タイトル入力と内容入力を確認してください。</string>
+    <string name="text_privacy_policy">個人情報保護方針</string>
+</resources>

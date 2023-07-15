@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TimeRecord</string>
+    <string name="text_home">Home</string>
+    <string name="text_setting">Setting</string>
+    <string name="text_title_home_recycler_view">TimeRecordList</string>
+    <string name="text_start">Start</string>
+    <string name="text_end">End</string>
+    <string name="text_not_yet_set_text">Not yet</string>
+    <string name="text_title_home_add_todo">Add Todo</string>
+    <string name="text_title_label">Title</string>
+    <string name="text_start_time_label">StartTime</string>
+    <string name="text_end_time_label">EndTime</string>
+    <string name="text_repeat_label">Repeat</string>
+    <string name="text_sunday">Sun</string>
+    <string name="text_monday">Mon</string>
+    <string name="text_tuesday">Tue</string>
+    <string name="text_wednesday">Wed</string>
+    <string name="text_thursday">Thu</string>
+    <string name="text_friday">Fri</string>
+    <string name="text_saturday">Sat</string>
+    <string name="text_add_todo">Add Todo</string>
+    <string name="text_title_edit_hour">Edit Hour</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_ok">Ok</string>
+</resources>

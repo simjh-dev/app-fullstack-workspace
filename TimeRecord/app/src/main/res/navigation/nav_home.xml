@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_nav_setting"
+    app:startDestination="@id/fragment_home_default">
+
+    <fragment
+        android:id="@+id/fragment_home_default"
+        android:name="com.example.timerecord.fragment.home.HomeDefaultFragment" />
+
+    <fragment
+        android:id="@+id/fragment_home_add_todo"
+        android:name="com.example.timerecord.fragment.home.HomeAddTodoFragment" />
+
+    <fragment
+        android:id="@+id/fragment_home_todo_detail"
+        android:name="com.example.timerecord.fragment.home.HomeTodoDetailFragment" />
+
+    <action
+        android:id="@+id/action_default_to_add_todo"
+        app:destination="@id/fragment_home_add_todo" />
+
+    <action
+        android:id="@+id/action_default_to_todo_detail"
+        app:destination="@id/fragment_home_todo_detail" />
+
+</navigation>

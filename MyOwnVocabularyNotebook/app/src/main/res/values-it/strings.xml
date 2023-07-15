@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">VocabularyNote</string>
+    <string name="text_add">Add Note</string>
+    <string name="text_game">Game Note</string>
+    <string name="text_setting">Setting</string>
+    <string name="text_hint_title">Title: Toeic Voca</string>
+    <string name="text_hint_memo">Memo</string>
+    <string name="text_save">Save</string>
+    <string name="text_import">Import</string>
+    <string name="text_item_add">Item Add</string>
+    <string name="text_hint_key">Key</string>
+    <string name="text_hint_value">Value</string>
+    <string name="text_random">Random</string>
+    <string name="text_start_game">Start Game</string>
+    <string name="text_add_note">Add Note</string>
+    <string name="text_edit_note">Edit Note</string>
+    <string name="text_back">Back</string>
+    <string name="text_use_translation">use Translation</string>
+    <string name="text_key">key</string>
+    <string name="text_value">value</string>
+    <string name="text_label_key">key: </string>
+    <string name="text_label_value">value: </string>
+    <string name="text_flip">flip</string>
+    <string name="text_exam">exam</string>
+    <string name="text_title_note_item_import_description">How to import Excel data</string>
+    <string name="text_content_note_item_import_description">
+        ※ You must create a file in the following format when you can import it. \n
+        1. Create an Excel file in xlsx format.(recommended xlsx format) \n
+        2. Set the sheet name to \'result\'. \n
+        3. Set A1 to \'key\' and B1 to \'value\'. \n
+        4. Then write key in column A and value in column B. \n
+        5. Then import the Excel file.
+    </string>
+    <string name="text_insert_note_item_success">Insert Note Item Success!</string>
+    <string name="text_delete_note_success">Delete Note Success!</string>
+    <string name="text_result">result</string>
+    <string name="text_temp">TEMP</string>
+    <string name="text_edit">EDIT</string>
+    <string name="text_cancel">CANCEL</string>
+    <string name="text_delete">DELETE</string>
+    <string name="text_export">EXPORT</string>
+    <string name="text_view">VIEW</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="text_save_success">saving success!</string>
+    <string name="text_save_failed">saving failed!</string>
+    <string name="text_empty_item">item list is empty. please add item in edit note</string>
+    <string name="text_select_equal_language">The key language and value language cannot be the same.</string>
+    <string name="text_fail_import_excel">Fail to import excel!</string>
+    <string name="text_opensource_license">Open Source License</string>
+    <string name="text_terms_and_conditions">Terms and Conditions</string>
+    <string name="text_personal_information_processing_policy">Personal information processing policy</string>
+    <string name="text_customer_suggestions">Customer Suggestions</string>
+    <string name="text_hint_email_subject">Subject: </string>
+    <string name="text_hint_email_text">Text: </string>
+    <string name="text_send">Send</string>
+    <string name="text_send_email_vaildate_fail">Please check the title entry and the content entry.</string>
+    <string name="text_privacy_policy">Privacy Policy</string>
+</resources>

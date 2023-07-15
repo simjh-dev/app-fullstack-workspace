@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AccountBookUISampling</string>
+    <string name="text_group">그룹</string>
+    <string name="text_name">이름</string>
+    <string name="text_amount">금액</string>
+    <string name="text_memo">메모</string>
+    <string name="text_income">수입</string>
+    <string name="text_consumption">지출</string>
+    <string name="text_transfer">이체</string>
+    <string name="text_sum">결과</string>
+    <string name="text_main">가계부</string>
+    <string name="text_date">날짜</string>
+    <string name="text_repeat">반복/할부</string>
+    <string name="text_select_repeat">반복</string>
+    <string name="text_select_installment">반복/할부</string>
+    <string name="text_select_cancel">취소</string>
+    <string name="text_select_installment_label">할부</string>
+    <string name="text_complete">완료</string>
+    <string name="text_asset">자산</string>
+    <string name="text_category">분류</string>
+    <string name="text_detail">내용</string>
+    <string name="text_addition_detail">추가입력</string>
+    <string name="text_save">저장</string>
+    <string name="text_continue">계속</string>
+    <string name="text_fee">수수료</string>
+    <string name="text_consumption_sum">지출 (현금, 은행)</string>
+    <string name="text_category_name">분류 이름</string>
+    <string name="text_today">오늘</string>
+    <string name="text_day">일일</string>
+    <string name="text_calendar">달력</string>
+    <string name="text_weeks">주별</string>
+    <string name="text_months">월별</string>
+    <string name="text_summary">요약</string>
+    <string name="text_list_is_empty">데이터가 없습니다.</string>
+    <string name="text_asset_group">자산 그룹</string>
+    <string name="text_cancel">취소</string>
+
+</resources>

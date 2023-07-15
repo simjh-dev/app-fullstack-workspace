@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.jh.myownvocabularynotebook.room.viewmodel.NoteItemViewModel" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="translatedText"
+            type="String" />
+
+        <variable
+            name="isExecute"
+            type="Boolean" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/layout_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:rippleColor="@null">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_key"
+                android:layout_width="0dp"
+                android:layout_height="?attr/actionBarSize"
+                android:hint="@string/text_hint_key"
+                android:inputType="text"
+                android:maxLines="1"
+                android:text="@{item.key}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/et_value"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.25" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_value"
+                android:layout_width="0dp"
+                android:layout_height="?attr/actionBarSize"
+                android:hint='@{translatedText.length > 0 ? translatedText : @string/text_hint_value}'
+                android:inputType="text"
+                android:maxLines="1"
+                android:text="@{item.value}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_remove"
+                app:layout_constraintStart_toEndOf="@+id/et_key"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:visibility="@{isExecute ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toBottomOf="@+id/et_value"
+                app:layout_constraintEnd_toEndOf="@+id/et_value"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@+id/et_value"
+                app:layout_constraintTop_toTopOf="@+id/et_value" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_remove"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="?attr/actionBarSize"
+                android:contentDescription="@string/content_description_btn_remove"
+                app:icon="@drawable/baseline_cancel_24"
+                app:iconGravity="textEnd"
+                app:iconTint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/et_value"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.1"
+                app:strokeColor="@color/white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

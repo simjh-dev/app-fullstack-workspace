@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragment_main_default">
+
+    <fragment
+        android:id="@+id/fragment_main_default"
+        android:name="com.jh.myownvocabularynotebook.main.MainDefaultFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_add"
+        android:name="com.jh.myownvocabularynotebook.main.add.MainAddFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_edit"
+        android:name="com.jh.myownvocabularynotebook.main.edit.MainEditFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_view"
+        android:name="com.jh.myownvocabularynotebook.main.MainViewFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_game"
+        android:name="com.jh.myownvocabularynotebook.main.game.MainGameFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_setting"
+        android:name="com.jh.myownvocabularynotebook.main.setting.MainSettingFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_edit_detail"
+        android:name="com.jh.myownvocabularynotebook.main.edit.MainEditDetailFragment" />
+
+    <fragment
+        android:id="@+id/fragment_main_game_detail"
+        android:name="com.jh.myownvocabularynotebook.main.game.MainGameDetailFragment" />
+
+    <fragment
+        android:id="@+id/fragment_open_source"
+        android:name="com.jh.myownvocabularynotebook.main.setting.OpenSourceFragment" />
+    <fragment
+        android:id="@+id/fragment_customer_suggestions"
+        android:name="com.jh.myownvocabularynotebook.main.setting.CustomerSuggestionsFragment" />
+
+    <fragment
+        android:id="@+id/fragment_web_view"
+        android:name="com.jh.myownvocabularynotebook.main.setting.WebViewFragment" />
+
+    <fragment
+        android:id="@+id/fragment_mark_down"
+        android:name="com.jh.myownvocabularynotebook.main.setting.MarkDownFragment" />
+
+    <action
+        android:id="@+id/action_default_to_add"
+        app:destination="@id/fragment_main_add" />
+
+    <action
+        android:id="@+id/action_default_to_edit"
+        app:destination="@id/fragment_main_edit" />
+
+    <action
+        android:id="@+id/action_default_to_game"
+        app:destination="@id/fragment_main_game" />
+
+    <action
+        android:id="@+id/action_default_to_setting"
+        app:destination="@id/fragment_main_setting" />
+
+    <action
+        android:id="@+id/action_add_to_edit"
+        app:destination="@id/fragment_main_edit"
+        app:popUpTo="@+id/fragment_main_add"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_edit_or_game_to_add"
+        app:destination="@id/fragment_main_add" />
+
+    <action
+        android:id="@+id/action_edit_or_game_to_view"
+        app:destination="@id/fragment_main_view" />
+
+    <action
+        android:id="@+id/action_game_to_edit"
+        app:destination="@id/fragment_main_edit" />
+
+    <action
+        android:id="@+id/action_edit_to_edit_detail"
+        app:destination="@id/fragment_main_edit_detail" />
+
+    <action
+        android:id="@+id/action_setting_to_web_view"
+        app:destination="@id/fragment_web_view" />
+
+    <action
+        android:id="@+id/action_setting_to_mark_down"
+        app:destination="@id/fragment_mark_down" />
+
+    <action
+        android:id="@+id/action_setting_to_open_source"
+        app:destination="@id/fragment_open_source" />
+    <action
+        android:id="@+id/action_setting_to_customer_suggestions"
+        app:destination="@id/fragment_customer_suggestions" />
+
+    <action
+        android:id="@+id/action_refresh_edit_detail"
+        app:destination="@id/fragment_main_edit_detail"
+        app:popUpTo="@+id/fragment_main_edit_detail"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_refresh_edit"
+        app:destination="@id/fragment_main_edit"
+        app:popUpTo="@+id/fragment_main_edit"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_refresh_game_detail"
+        app:destination="@id/fragment_main_game_detail"
+        app:popUpTo="@+id/fragment_main_game_detail"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_game_to_game_detail"
+        app:destination="@id/fragment_main_game_detail" />
+
+
+</navigation>

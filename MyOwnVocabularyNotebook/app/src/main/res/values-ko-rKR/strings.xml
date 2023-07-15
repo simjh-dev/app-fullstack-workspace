@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">내가 만든 단어장</string>
+    <string name="text_add">노트 추가</string>
+    <string name="text_game">게임 노트</string>
+    <string name="text_setting">설정</string>
+    <string name="text_hint_title">제목 : 토익 보카</string>
+    <string name="text_hint_memo">메모</string>
+    <string name="text_save">저장</string>
+    <string name="text_import">Import</string>
+    <string name="text_item_add">항목 추가</string>
+    <string name="text_hint_key">키</string>
+    <string name="text_hint_value">값</string>
+    <string name="text_random">랜덤</string>
+    <string name="text_start_game">게임 시작</string>
+    <string name="text_add_note">노트 추가</string>
+    <string name="text_edit_note">노트 편집</string>
+    <string name="text_back">뒤로</string>
+    <string name="text_use_translation">번역 사용</string>
+    <string name="text_key">키</string>
+    <string name="text_value">값</string>
+    <string name="text_label_key">키: </string>
+    <string name="text_label_value">값: </string>
+    <string name="text_flip">플립</string>
+    <string name="text_exam">시험</string>
+    <string name="text_title_note_item_import_description">Excel 데이터를 가져오는 방법</string>
+    <string name="text_content_note_item_import_description">
+        ※ 파일을 가져올 수 있는 경우 다음 형식으로 파일을 만들어야 합니다. \n
+        1. xlsx 형식으로 Excel 파일을 만듭니다.(xlsx 형식 권장) \n
+        2. 시트 이름을 \'result\'로 설정합니다. \n
+        3. A1을 \'key\'로, B1을 \'value\'로 설정합니다. \n
+        4. 그런 다음 A열에 키를, B열에 값을 입력합니다. \n
+        5. 그런 다음 Excel 파일을 가져옵니다.
+    </string>
+    <string name="text_insert_note_item_success">노트 항목 삽입 성공!</string>
+    <string name="text_delete_note_success">노트 삭제 성공!</string>
+    <string name="text_result">결과</string>
+    <string name="text_temp">임시</string>
+    <string name="text_edit">편집</string>
+    <string name="text_cancel">취소</string>
+    <string name="text_delete">삭제</string>
+    <string name="text_export">EXPORT</string>
+    <string name="text_view">보기</string>
+    <string name="text_yes">예</string>
+    <string name="text_no">아니요</string>
+    <string name="text_save_success">저장 성공!</string>
+    <string name="text_save_failed">저장 실패!</string>
+    <string name="text_empty_item">항목 목록이 비어 있습니다. 편집 노트에 항목을 추가하십시오</string>
+    <string name="text_select_equal_language">키 언어와 값 언어는 같을 수 없습니다.</string>
+    <string name="text_fail_import_excel">엑셀을 가져오지 못했습니다!</string>
+    <string name="text_opensource_license">오픈 소스 라이센스</string>
+    <string name="text_terms_and_conditions">이용약관</string>
+    <string name="text_personal_information_processing_policy">개인정보처리방침</string>
+    <string name="text_customer_suggestions">고객 제안</string>
+    <string name="text_hint_email_subject">제목: </string>
+    <string name="text_hint_email_text">내용: </string>
+    <string name="text_send">전송</string>
+    <string name="text_send_email_vaildate_fail">제목 입력과 내용 입력을 확인해주세요.</string>
+    <string name="text_privacy_policy">개인정보처리방침</string>
+</resources>
